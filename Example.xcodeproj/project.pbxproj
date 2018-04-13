@@ -13,6 +13,15 @@
 		2B0F283C208053AB00A39430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F283B208053AB00A39430 /* Assets.xcassets */; };
 		2B0F283F208053AB00A39430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F283D208053AB00A39430 /* LaunchScreen.storyboard */; };
 		2B0F2842208053AB00A39430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F2841208053AB00A39430 /* main.m */; };
+		2B0F285C208058B600A39430 /* UIButton+HKTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F284D208058B600A39430 /* UIButton+HKTExtension.m */; };
+		2B0F285D208058B600A39430 /* UIBarButtonItem+HKTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F284E208058B600A39430 /* UIBarButtonItem+HKTExtension.m */; };
+		2B0F285E208058B600A39430 /* UIView+HKTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F284F208058B600A39430 /* UIView+HKTExtension.m */; };
+		2B0F285F208058B600A39430 /* UILabel+HKTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F2851208058B600A39430 /* UILabel+HKTExtension.m */; };
+		2B0F2860208058B600A39430 /* NSDictionary+HKTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F2853208058B600A39430 /* NSDictionary+HKTExtension.m */; };
+		2B0F2861208058B600A39430 /* UIButton+HKTImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F2854208058B600A39430 /* UIButton+HKTImageTitleSpacing.m */; };
+		2B0F2862208058B600A39430 /* UIImage+HKTEXtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F2858208058B600A39430 /* UIImage+HKTEXtension.m */; };
+		2B0F2863208058B600A39430 /* UIButton+HKTButtonEdgeInsetsStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F285A208058B600A39430 /* UIButton+HKTButtonEdgeInsetsStyle.m */; };
+		2B0F2864208058B600A39430 /* HKTCommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F285B208058B600A39430 /* HKTCommonClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,24 @@
 		2B0F283E208053AB00A39430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B0F2840208053AB00A39430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B0F2841208053AB00A39430 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B0F2849208058B600A39430 /* HKTCommonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKTCommonClass.h; sourceTree = "<group>"; };
+		2B0F284B208058B600A39430 /* UIButton+HKTImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HKTImageTitleSpacing.h"; sourceTree = "<group>"; };
+		2B0F284C208058B600A39430 /* NSDictionary+HKTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HKTExtension.h"; sourceTree = "<group>"; };
+		2B0F284D208058B600A39430 /* UIButton+HKTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HKTExtension.m"; sourceTree = "<group>"; };
+		2B0F284E208058B600A39430 /* UIBarButtonItem+HKTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HKTExtension.m"; sourceTree = "<group>"; };
+		2B0F284F208058B600A39430 /* UIView+HKTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HKTExtension.m"; sourceTree = "<group>"; };
+		2B0F2850208058B600A39430 /* UIButton+HKTButtonEdgeInsetsStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HKTButtonEdgeInsetsStyle.h"; sourceTree = "<group>"; };
+		2B0F2851208058B600A39430 /* UILabel+HKTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HKTExtension.m"; sourceTree = "<group>"; };
+		2B0F2852208058B600A39430 /* UIImage+HKTEXtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HKTEXtension.h"; sourceTree = "<group>"; };
+		2B0F2853208058B600A39430 /* NSDictionary+HKTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HKTExtension.m"; sourceTree = "<group>"; };
+		2B0F2854208058B600A39430 /* UIButton+HKTImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HKTImageTitleSpacing.m"; sourceTree = "<group>"; };
+		2B0F2855208058B600A39430 /* UIButton+HKTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HKTExtension.h"; sourceTree = "<group>"; };
+		2B0F2856208058B600A39430 /* UIView+HKTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HKTExtension.h"; sourceTree = "<group>"; };
+		2B0F2857208058B600A39430 /* UIBarButtonItem+HKTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HKTExtension.h"; sourceTree = "<group>"; };
+		2B0F2858208058B600A39430 /* UIImage+HKTEXtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HKTEXtension.m"; sourceTree = "<group>"; };
+		2B0F2859208058B600A39430 /* UILabel+HKTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HKTExtension.h"; sourceTree = "<group>"; };
+		2B0F285A208058B600A39430 /* UIButton+HKTButtonEdgeInsetsStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HKTButtonEdgeInsetsStyle.m"; sourceTree = "<group>"; };
+		2B0F285B208058B600A39430 /* HKTCommonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKTCommonClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +94,42 @@
 				2B0F283D208053AB00A39430 /* LaunchScreen.storyboard */,
 				2B0F2840208053AB00A39430 /* Info.plist */,
 				2B0F2841208053AB00A39430 /* main.m */,
+				2B0F2848208058B600A39430 /* CommonTools */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		2B0F2848208058B600A39430 /* CommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				2B0F2849208058B600A39430 /* HKTCommonClass.h */,
+				2B0F285B208058B600A39430 /* HKTCommonClass.m */,
+				2B0F284A208058B600A39430 /* Category */,
+			);
+			path = CommonTools;
+			sourceTree = SOURCE_ROOT;
+		};
+		2B0F284A208058B600A39430 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B0F284B208058B600A39430 /* UIButton+HKTImageTitleSpacing.h */,
+				2B0F284C208058B600A39430 /* NSDictionary+HKTExtension.h */,
+				2B0F284D208058B600A39430 /* UIButton+HKTExtension.m */,
+				2B0F284E208058B600A39430 /* UIBarButtonItem+HKTExtension.m */,
+				2B0F284F208058B600A39430 /* UIView+HKTExtension.m */,
+				2B0F2850208058B600A39430 /* UIButton+HKTButtonEdgeInsetsStyle.h */,
+				2B0F2851208058B600A39430 /* UILabel+HKTExtension.m */,
+				2B0F2852208058B600A39430 /* UIImage+HKTEXtension.h */,
+				2B0F2853208058B600A39430 /* NSDictionary+HKTExtension.m */,
+				2B0F2854208058B600A39430 /* UIButton+HKTImageTitleSpacing.m */,
+				2B0F2855208058B600A39430 /* UIButton+HKTExtension.h */,
+				2B0F2856208058B600A39430 /* UIView+HKTExtension.h */,
+				2B0F2857208058B600A39430 /* UIBarButtonItem+HKTExtension.h */,
+				2B0F2858208058B600A39430 /* UIImage+HKTEXtension.m */,
+				2B0F2859208058B600A39430 /* UILabel+HKTExtension.h */,
+				2B0F285A208058B600A39430 /* UIButton+HKTButtonEdgeInsetsStyle.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +203,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0F2837208053AA00A39430 /* ViewController.m in Sources */,
+				2B0F285D208058B600A39430 /* UIBarButtonItem+HKTExtension.m in Sources */,
 				2B0F2842208053AB00A39430 /* main.m in Sources */,
+				2B0F2862208058B600A39430 /* UIImage+HKTEXtension.m in Sources */,
+				2B0F2863208058B600A39430 /* UIButton+HKTButtonEdgeInsetsStyle.m in Sources */,
 				2B0F2834208053A900A39430 /* AppDelegate.m in Sources */,
+				2B0F2860208058B600A39430 /* NSDictionary+HKTExtension.m in Sources */,
+				2B0F2861208058B600A39430 /* UIButton+HKTImageTitleSpacing.m in Sources */,
+				2B0F285E208058B600A39430 /* UIView+HKTExtension.m in Sources */,
+				2B0F2864208058B600A39430 /* HKTCommonClass.m in Sources */,
+				2B0F285C208058B600A39430 /* UIButton+HKTExtension.m in Sources */,
+				2B0F285F208058B600A39430 /* UILabel+HKTExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
